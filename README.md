@@ -12,11 +12,19 @@ cd manim
 pip install -e .
 manimgl example_scenes.py OpeningManimExample -w
 ```
-`-w`でmp4として出力できる．
+`-w`でmp4として出力できる．`manim/videos/OpeningManimExample.mp4`が生成される．
+
+または
+```
+cd ..
+mkdir videos
+manimgl manim/example_scenes.py OpeningManimExample -w --file_name opening_manim_exmaple.mp4
+```
+とすると`videos/opening_manim_exmaple.mp4`が生成される．
 
 ## メモ
 Mac OS Big Sur ではopenGLに関するエラーが出るので以下のように修正．
-`venv/lib/python3.7/site-packages/OpenGL/platform/ctypesloader.py`
+`.venv/lib/python3.7/site-packages/OpenGL/platform/ctypesloader.py`
 ```
 # before
 fullName = util.find_library( name )
