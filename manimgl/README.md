@@ -1,4 +1,5 @@
-# Visualizations of Science
+# manimGL
+[home](https://3b1b.github.io/manim/)
 ## manimのインストール
 参考: [manimgl](https://github.com/3b1b/manim#mac-osx)
 ### for Mac
