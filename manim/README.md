@@ -8,22 +8,30 @@
 ## Getting Started
 ```py
 # scene.py
-
 from manim import *
 
-
 class SquareToCircle(Scene):
-    def construct(self):
-        circle = Circle()  # create a circle
-        circle.set_fill(PINK, opacity=0.5)  # set the color and transparency
-        self.play(Create(circle))  # show the circle on screen
+    def construct(self): # derives from Scene
+        # create a circle
+        circle = Circle()
+        circle.set_fill(PINK, opacity=0.5)
+
+        # create a square
+        square = Square()
+        square.rotate(PI / 4)
+
+        self.play(Create(square))
+        self.play(Transform(square, circle))
+        self.play(Create(circle)) # show the circle on screen
 ```
 
 ```
 manim -pql scene.py SquareToCircle
 ```
-![SquareToCircle](/project/media/videos/scene/1080p60/SquareToCircle_ManimCE_v0.10.0.gif)
 `media/videos/scene/480p15/SquareToCircle.mp4`にvideoができる．
+
+![SquareToCircle](https://github.com/KotaTakeda/visualizations/blob/main/manim/project/media/videos/scene/1080p60/SquareToCircle_ManimCE_v0.10.0.gif)
+
 
 ## Command options
 - play
