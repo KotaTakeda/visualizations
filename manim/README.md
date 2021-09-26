@@ -22,6 +22,7 @@ class SquareToCircle(Scene):
 ```
 manim -pql scene.py SquareToCircle
 ```
+![SquareToCircle](/project/media/videos/scene/1080p60/SquareToCircle_ManimCE_v0.10.0.gif)
 `media/videos/scene/480p15/SquareToCircle.mp4`にvideoができる．
 
 ## Command options
