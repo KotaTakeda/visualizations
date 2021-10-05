@@ -47,3 +47,8 @@ manim -pql scene.py SquareToCircle
   - `-i`: .gifで保存．
 - `-a`: ファイル内の全ての`Scene`クラスを描画．
 
+## Mobjects
+`project/mobjects.py`
+
+## Animations
+`project/animations.py`
