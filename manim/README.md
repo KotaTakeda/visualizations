@@ -6,8 +6,8 @@
 - [Google Colaboratory](https://docs.manim.community/en/stable/installation/jupyter.html#google-colaboratory)
 
 ## Getting Started
+`project/scene.py`
 ```py
-# scene.py
 from manim import *
 
 class SquareToCircle(Scene):
@@ -46,3 +46,4 @@ manim -pql scene.py SquareToCircle
   - `-s`: 最後のフレームを.pngで保存．
   - `-i`: .gifで保存．
 - `-a`: ファイル内の全ての`Scene`クラスを描画．
+
