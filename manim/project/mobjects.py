@@ -1,3 +1,5 @@
+# key: クラスのインスタンス作成とaddによる表示
+
 from manim import *
 
 # creting and displaying -------------------
