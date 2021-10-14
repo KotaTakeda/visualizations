@@ -50,5 +50,9 @@ manim -pql scene.py SquareToCircle
 ## Mobjects
 `project/mobjects.py`
 
+![PlacingMobjects](https://github.com/KotaTakeda/visualizations/blob/main/manim/project/media/images/mobjects/PlacingMobjects_ManimCE_v0.10.0.png)
+
 ## Animations
 `project/animations.py`
+
+![ExampleRotation](https://github.com/KotaTakeda/visualizations/blob/main/manim/project/media/videos/animations/480p15/ExampleRotation_ManimCE_v0.11.0.gif)
