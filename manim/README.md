@@ -1,9 +1,14 @@
 # Manim
 [Manim Community](https://docs.manim.community/en/stable/index.html)
 
-## installation
+## Guide
+
+### installation
 - [MacOS](https://docs.manim.community/en/stable/installation/macos.html)
 - [Google Colaboratory](https://docs.manim.community/en/stable/installation/jupyter.html#google-colaboratory)
+
+### Docs
+- [docs](https://azarzadavila-manim.readthedocs.io/en/latest/index.html)
 
 ## Getting Started
 `project/scene.py`
@@ -42,7 +47,7 @@ manim -pql scene.py SquareToCircle
   - `-qm`: 中品質で描画．
   - `-qh`: 高品質で描画．
   - `-qk`: 4K品質で描画．
-- その他形式 
+- その他形式
   - `-s`: 最後のフレームを.pngで保存．
   - `-i`: .gifで保存．
 - `-a`: ファイル内の全ての`Scene`クラスを描画．
