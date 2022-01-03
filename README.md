@@ -11,4 +11,4 @@ Visualizations of Science
 
 ## matplotlib
 ### 球面座標
-![spherical coordinate](https://github.com/KotaTakeda/visualizations/blob/main/matplotlib/data/sp_coord.pdf)
+![spherical coordinate](https://github.com/KotaTakeda/visualizations/blob/main/matplotlib/data/sp_coord)
